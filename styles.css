@@ -237,7 +237,7 @@ footer p {
     .caption {
         font-size: 11px;
     }
-    .photo-container div {
+    .photo-container figure {
         float: none;
         width: auto;
         text-align: center;
