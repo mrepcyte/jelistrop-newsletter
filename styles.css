@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'EB Garamond', serif;
+    padding: 10px;
+}
+
+/* header (sidebar) styles */
+
+header {
+    margin-left: 280px;
+}
+
+.sidebar {
+    background-color: #f9e79f;
+    position: fixed;
+    height: 100vh;
+    width: 35px;
+    border-right: 2px dotted white;
+}
+
+.illustration {
+    height: 370px;
+    margin-left: 60px;
+    position: fixed;
+}
+
+.sidebar-menu {
+    margin-left: 35px;
+    border-left: 2px dotted white;
+    width: 315px;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    border-right: 2px dashed #f9e79f;
+}
+
+.menu-container {
+    margin-top: 390px;
+    margin-left: 20px;
+    width: 260px;
+}
+.menu-links ul {
+    font-size: 14px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-container p {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    animation: border-bottom 0.3s ease-in;
+}
+
+a.active {
+    color: #276d9b;
+}
+
+a:hover {
+    color: #276d9b;
+    border-bottom: 1px solid #276d9b;
+}
+
+/* content of the page excepting the sidebars (content of the newsletter issue) */
+
+main {
+    margin-left: 670px;
+    max-width: 550px;
+}
+
+main h1,
+h2 {
+    text-align: center;
+}
+
+.date {
+    font-size: 14px;
+    font-style: italic;
+    text-align: right;
+}
+
+.main-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.issue-title {
+    border-bottom: 1px solid #f9e79f;
+    margin-bottom: 25px;
+    font-size: 32px;
+}
+
+.text-container {
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.author {
+    font-weight: 700;
+}
+
+.book-title {
+    font-style: italic;
+}
+
+/* horizontal photo container */
+
+.horizontal {
+    width: 100%;
+    padding: 20px;
+    border: 1px dashed #f9e79f;
+}
+
+.caption {
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+/* vertical photo containers */
+
+.photo-container {
+    overflow: hidden;
+}
+
+.photo-container figure {
+    float: left;
+    width: 50%;
+}
+
+.photo-container figure img {
+    width: 100%;
+    padding: 10px;
+    border: 1px dashed #f9e79f;
+}
+
+.photo-container figure:first-child img {
+    border-right: 1px solid transparent;
+}
+
+.photo-container figcaption {
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
+    background-color: #f9e79f;
+    margin-bottom: 10px;
+}
+
+/* footer styles */
+
+footer {
+    margin-left: 670px;
+    max-width: 550px;
+    font-size: 11px;
+    text-align: right;
+}
+
+footer p {
+    margin-top: 40px;
+}
+
+/* MEDIA QUERIES */
+
+/* style for wide laptop screen */
+@media (min-width: 1630px) {
+    header {
+        margin-left: 460px;
+    }
+    main,
+    footer {
+        margin-left: 840px;
+    }
+}
+
+@media (max-width: 1600px) {
+    header {
+        margin-left: 250px;
+    }
+    main,
+    footer {
+        margin-left: 620px;
+    }
+}
+
+@media (max-width: 1400px) {
+    header {
+        margin-left: 0;
+    }
+    main,
+    footer {
+        margin-left: 390px;
+    }
+}
+
+@media (max-width: 960px) {
+    header {
+        display: none;
+    }
+    main,
+    footer {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 680px) {
+    main {
+        margin: 0 25px;
+    }
+    .date {
+        margin: 0 auto;
+        text-align: right;
+    }
+    .main-title {
+        margin-top: 15px;
+        font-size: 22px;
+    }
+    .issue-title {
+        font-size: 24px;
+    }
+    .text-container {
+        font-size: 15px;
+    }
+    .caption {
+        font-size: 11px;
+    }
+    .photo-container div {
+        float: none;
+        width: auto;
+        text-align: center;
+    }
+    footer {
+        margin-left: 0;
+        text-align: right;
+        margin-right: 25px;
+    }
+}
