@@ -13,7 +13,7 @@ I always knew I would like this newsletter to have a certain look. I was not ent
 1. Desktop view of a newsletter using one of the suggested email templates
 2. Desktop view of a newsletter using custom code
 
-<section style="display:flex;flex-wrap:wrap">
+<section style="display:flex;flex-wrap:wrap;margin-bottom:10px">
     <img style="height: 320px;padding: 10px" src="https://github.com/mrepcyte/jelistrop-newsletter/blob/main/assets/Desktop-Mailchimp.png?raw=true">
     <img style="height: 320px;padding:10px" src="https://github.com/mrepcyte/jelistrop-newsletter/blob/main/assets/Desktop-Adjusted.png?raw=true">
 </section>
