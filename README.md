@@ -10,16 +10,20 @@ I always knew I would like this newsletter to have a certain look. I was not ent
 
 ## Screenshots
 
-1. Desktop view of a newsletter using one of the suggested email templates
-2. Desktop view of a newsletter using custom code
+<p>
+1. Desktop view of a newsletter using one of the suggested email templates<br />
+2. Desktop view of a newsletter using custom code<br />
+</p>
 
 <section style="display:flex;flex-wrap:wrap;margin-bottom:10px">
     <img style="height: 320px;padding: 10px" src="https://github.com/mrepcyte/jelistrop-newsletter/blob/main/assets/Desktop-Mailchimp.png?raw=true">
     <img style="height: 320px;padding:10px" src="https://github.com/mrepcyte/jelistrop-newsletter/blob/main/assets/Desktop-Adjusted.png?raw=true">
 </section>
 
-3. Mobile view of a newsletter using one of the suggested email templates
-4. Mobile view of a newsletter using custom code
+<p>
+3. Mobile view of a newsletter using one of the suggested email templates<br/>
+4. Mobile view of a newsletter using custom code<br/>
+</p>
 
 <section style="display:flex;flex-wrap:wrap">
     <img style="height: 360px;padding: 10px" src="https://github.com/mrepcyte/jelistrop-newsletter/blob/main/assets/Mobile-Mailchimp.png?raw=true">
